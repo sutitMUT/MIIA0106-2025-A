@@ -73,7 +73,7 @@ int main ()
 		cout << nickname[i] << "\t\t";
 		cout << studentIDs[i] << "\t\t";
 		cout << lindIds[i] << "\t\t";
-		cout << phoneNumbers[i] << "\t\t";
+		cout << phoneNumbers[i] << "\t\ft";
 		cout << endl;
 	}
 
