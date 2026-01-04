@@ -38,8 +38,10 @@ int main() {
 
 	// OUTPUT
 	cout << "\n===== Student List =====\n";
+	cout << "ID\tnickname\tLine ID\t Phone \n";
 	for (int i = 0; i < SIZE; i++) {
 		// TODO: cout << students[i]...
+		cout << students[i].id << "\t" << students[i].nickname << "\t" << students[i].lineId << "\t" << students[i].phone << "\n";
 		cout << "----------------------\n";
 	}
 
