@@ -62,6 +62,16 @@ int main() {
 
     cout << "\n===== Output =====\n";
     //// TODO 4): แสดงผลข้อมูลทั้งหมด (รวม address และ phone)
+	cout << "ID: " << s1.id << "\n";
+	cout << "Name: " << s1.name << "\n";
+	cout << "Surname: " << s1.surname << "\n";
+	cout << "Address - House Number: " << s1.addr.number << "\n";
+	cout << "Address - Road: " << s1.addr.road << "\n";
+	cout << "Address - District: " << s1.addr.district << "\n";
+	cout << "Address - Province: " << s1.addr.province << "\n";
+	cout << "Phone - Home: " << s1.tel.home << "\n";
+	cout << "Phone - Mobile: " << s1.tel.mobile << "\n";
+
 
     return 0;
 }
