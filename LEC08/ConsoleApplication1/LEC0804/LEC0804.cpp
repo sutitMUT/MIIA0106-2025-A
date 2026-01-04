@@ -59,6 +59,10 @@ int main() {
 	const int SIZE = 2;
 	Student students[SIZE];
 
+	typedef int Mynumber;
+
+	Mynumber a = 10;
+
 	inputStudentData(students, SIZE);
 
 	sortByID(students, SIZE);   // เรียงจาก ID น้อย → มาก
