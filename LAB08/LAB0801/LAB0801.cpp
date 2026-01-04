@@ -39,3 +39,18 @@ int main() {
 
     return 0;
 }
+
+/*
+
+struct Name {
+// ตามด้วย ตัวแปร ที่ต้องการ 
+string firstName;
+	string lastName;
+};
+
+Name n1;
+
+n1.firstName = "Somchai";
+n1.lastName = "Sukjai";
+
+*/
